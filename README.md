@@ -73,11 +73,11 @@ Use option 7 to change the password and also the SSID if required
 If an ethernet cable is connected to the Pi with access to the internet then it will allow devices connected to the hotspot access to the internet or local network.
 Once a connection to the hotspot has been made you can access the Raspberry Pi via ssh & VNC with
 
-ssh pi@192.168.50.5
+ssh pi@192.168.10.5
 
-vnc: 192.168.50.5::5900
+vnc: 192.168.10.5::5900
 
-for webservers use http://192.168.50.5/
+for webservers use http://192.168.10.5/
 
 Option 2: Install Autohotspot with No Internet for connected devices
 This option is similar to option 1 but connected devices have no internet connection if an ethernet cable is connected. 
@@ -96,11 +96,11 @@ This is for a permanent WiFi hotspot with internet access for connected devices.
 The Raspberry Pi will only have network or internet access when an ethernet cable is connected.
 Once a connection to the hotspot has been made you can access the Raspberry Pi via ssh & VNC with
 
-ssh pi@192.168.50.10
+ssh pi@192.168.10.10
 
-vnc: 192.168.50.10::5900
+vnc: 192.168.10.10::5900
 
-for webservers use http://192.168.50.10/
+for webservers use http://192.168.10.10/
 
 Additional setup is required if you wanted to use a second WiFi device to connect to the internet rather than a ethernet conection. This will be a future option.
 
