@@ -700,7 +700,7 @@ if [ $nftble = "Y" ]; then
 	echo -n "Press a key to continue"
 	read
 fi
-check_reqfiles
+#check_reqfiles
 check_installed
 check_wificountry
 menu #show menu
