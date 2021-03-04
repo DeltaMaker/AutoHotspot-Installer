@@ -48,7 +48,7 @@ You will presented with a menu with these options
 
 Option 1: Install Autohotspot with Internet for Connected Devices 
 Once installed and after a reboot the Raspberry Pi will connect to a router that has previously been connected to and is listed in /etc/wpa_supplicant/wpa_supplicant.conf. If no router is in range then it will generate a WiFi hotspot.
-This will have an SSID of RPiHotspot and password of 1234567890
+This will have an SSID of DeltaMaker_WiFi and password of 1234567890
 Use option 7 to change the password and also the SSID if required
 If an ethernet cable is connected to the Pi with access to the internet then it will allow devices connected to the hotspot access to the internet or local network.
 Once a connection to the hotspot has been made you can access the Raspberry Pi via ssh & VNC with
@@ -59,7 +59,7 @@ for webservers use http://192.168.10.5/
 Option 2: Install Autohotspot with No Internet for connected devices
 This option is similar to option 1 but connected devices have no internet connection if an ethernet cable is connected. 
 This has been designed so you can access only the Pi from a Laptop, tablet or phone.
-The hotspot SSID will be RPiHotspot with a password of 1234567890
+The hotspot SSID will be DeltaMaker_WiFi with a password of 1234567890
 Once a connection to the hotspot has been made you can access the Raspberry Pi via ssh & VNC with
 ssh pi@10.0.0.5
 vnc: 10.0.0.5::5900
