@@ -69,9 +69,9 @@ Otion 3: Install a Permanent Hotspot with Internet for connected devices
 This is for a permanent WiFi hotspot with internet access for connected devices.
 The Raspberry Pi will only have network or internet access when an ethernet cable is connected.
 Once a connection to the hotspot has been made you can access the Raspberry Pi via ssh & VNC with
-ssh pi@192.168.10.10
-vnc: 192.168.10.10::5900
-for webservers use http://192.168.10.10/
+ssh pi@192.168.10.1
+vnc: 192.168.10.1::5900
+for webservers use http://192.168.10.1/
 
 Additional setup is required if you wanted to use a second WiFi device to connect to the internet rather than a ethernet conection. This will be a future option.
 
