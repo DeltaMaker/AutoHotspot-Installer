@@ -628,7 +628,7 @@ display_HS_IP() #get ip address from current active hotspot script
 		ipline=($(cat /usr/bin/autohotspotN | grep "ip a add")) 
 		echo "Access Point IP Address for SSH and VNC: ${ipline[3]: :-3}"
     else #Static Hotspot default IP
-		echo "Access Point IP Address for ssh and VNC: 192.168.50.10"
+		echo "Access Point IP Address for ssh and VNC: 192.168.10.1"
     fi
 }
 
