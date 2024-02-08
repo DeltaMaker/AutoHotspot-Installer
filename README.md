@@ -75,9 +75,9 @@ Once installed and after a reboot the Raspberry Pi will connect to a router that
 * Use option 7 to change the access point password and also the SSID if required.
 If an ethernet cable is connected to the Pi with access to the internet then it will allow devices connected to the access point to connect to the internet or local network.
 Once a connection to the access point has been made you can access the Raspberry Pi via ssh & VNC with
-* `ssh pi@192.168.50.5`
-* vnc: 192.168.50.5::5900
-* for webservers use http://192.168.50.5/
+* `ssh pi@192.168.10.1`
+* vnc: 192.168.10.1::5900
+* for webservers use http://192.168.10.1/
 
 The option installs
 ```
@@ -109,9 +109,9 @@ As noted above, this provides no internet access for connected devices. The mode
 This is for a permanent WiFi access point with network/internet access for connected devices.
 The Raspberry Pi will only have network and internet access when an ethernet cable is connected.
 Once a connection to the access point has been made, you can access the Raspberry Pi via ssh & VNC with
-* `ssh pi@192.168.50.10`
-* vnc: 192.168.50.10::5900
-* for webservers use http://192.168.50.10/
+* `ssh pi@192.168.10.1`
+* vnc: 192.168.10.1::5900
+* for webservers use http://192.168.10.1/
 
 Additional setup is required if you wanted to use a second WiFi device to connect to a network or internet rather than a ethernet conection. 
 This requires changing the references in the iptables or fftables files from eth0 to wlan1

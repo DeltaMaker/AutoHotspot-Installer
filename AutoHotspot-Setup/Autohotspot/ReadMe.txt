@@ -54,9 +54,9 @@ This will have an SSID of RPiHotspot and password of 1234567890
 Use option 7 to change the access point password and also the SSID if required
 If an ethernet cable is connected to the Pi with access to the internet then it will allow devices connected to the access point to connect to the internet or local network.
 Once a connection to the access point has been made you can access the Raspberry Pi via ssh & VNC with
-ssh pi@192.168.50.5
-vnc: 192.168.50.5::5900
-for webservers use http://192.168.50.5/
+ssh pi@192.168.10.1
+vnc: 192.168.10.1::5900
+for webservers use http://192.168.10.1/
 
 Option 2: Install Autohotspot with No eth0 for connected devices
 This option is similar to option 1 but connected devices have no network/internet connection if an ethernet cable is connected. 
@@ -72,9 +72,9 @@ Option 3: Install a Permanent Access Point with eth0 access for connected device
 This is for a permanent WiFi access point with network/internet access for connected devices.
 The Raspberry Pi will only have network and internet access when an ethernet cable is connected.
 Once a connection to the access point has been made, you can access the Raspberry Pi via ssh & VNC with
-ssh pi@192.168.50.10
-vnc: 192.168.50.10::5900
-for webservers use http://192.168.50.10/
+ssh pi@192.168.10.1
+vnc: 192.168.10.1::5900
+for webservers use http://192.168.10.1/
 
 Additional setup is required if you wanted to use a second WiFi device to connect to a network or internet rather than a ethernet conection. 
 This requires changing the references in the iptables or fftables files from eth0 to wlan1
