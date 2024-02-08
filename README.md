@@ -71,7 +71,7 @@ The main installation options are Options 1-4.
 ## Option 1: Install Autohotspot with eth0 access for Connected Devices 
 
 Once installed and after a reboot the Raspberry Pi will connect to a router that has previously been connected to and is listed in /etc/wpa_supplicant/wpa_supplicant.conf. If no router is in range then it will generate a WiFi access point.
-* This will have an SSID of RPiHotspot and password of 1234567890.
+* This will have an SSID of DeltaMaker_WiFi and password of DeltaMaker3D.
 * Use option 7 to change the access point password and also the SSID if required.
 If an ethernet cable is connected to the Pi with access to the internet then it will allow devices connected to the access point to connect to the internet or local network.
 Once a connection to the access point has been made you can access the Raspberry Pi via ssh & VNC with
@@ -92,7 +92,7 @@ As noted above, this setup provides network/Internet access for connected device
 This option is similar to option 1 but connected devices have no network/internet connection if an ethernet cable is connected. 
 The Pi itself can use the eth0 connection and also be accessed from a device on the etho network.
 * This has been designed so you can access only the Pi from a Laptop, tablet or phone.
-* The access point SSID will be RPiHotspot with a password of 1234567890
+* The access point SSID will be DeltaMaker_WiFi with a password of DeltaMaker3D
 Once a connection to the access point has been made you can access the Raspberry Pi via ssh & VNC with
 * `ssh pi@10.0.0.5`
 * vnc: 10.0.0.5::5900
@@ -140,7 +140,7 @@ If you are at home and connected to your home network but would like to use the 
  
 ## Option 7: Change the Pi's access point SSID and Password
 
-By default the access point SSID is RPiHotSpot with a password of 1234567890. Use this option to change either or both SSID and Password.
+By default the access point SSID is DeltaMaker_WiFi with a password of DeltaMaker3D. Use this option to change either or both SSID and Password.
 You will be prompted to change both but if you make no entry and press enter the existing setting will be kept.
 The password must be at least 8 characters. 
 
